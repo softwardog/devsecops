@@ -58,7 +58,7 @@ pipeline {
             steps {
                 script {
                     // Create a simple text file using the echo command
-                    sh 'echo "This is an artefact file" > artifact.txt'
+                    sh 'echo "This is an artefact file" > artefact.txt'
 
                     // Archive the artifact file
                     archiveArtifacts artifacts: 'artefact.txt'
