@@ -54,6 +54,17 @@ pipeline {
                 echo "This is a deploy step"
             }
         }
+        stage("artifact") {
+            steps {
+                script {
+                    // Create a simple text file using the echo command
+                    sh 'echo "This is an artefact file" > artifact.txt'
+
+                    // Archive the artifact file
+                    archiveArtifacts artifacts: 'artefact.txt'
+                }
+            }
+        }
     }
     post {
         failure {
