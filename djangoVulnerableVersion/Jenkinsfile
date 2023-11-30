@@ -93,6 +93,7 @@ pipeline {
             updateGitlabCommitStatus(name: "\${env.STAGE_NAME}", state: 'canceled')
         }
         always { 
+            archiveArtifacts artifacts: '*.json', fingerprint: true
             deleteDir()                                    // clean up workspace
         }
     }
