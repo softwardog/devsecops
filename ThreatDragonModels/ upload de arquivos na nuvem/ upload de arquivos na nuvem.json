@@ -1,0 +1,18 @@
+{
+  "version": "2.6.2",
+  "release_version": "",
+  "released_at": "2026-09-21",
+  "summary": {
+    "title": " upload de arquivos na nuvem",
+    "owner": "Wil",
+    "description": "DFD entre o usuário, o backend em Python/Django e um bucket S3 privado, utilizando a metodologia STRIDE para antecipar falhas antes de escrever o código.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [],
+    "diagramTop": 0,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
