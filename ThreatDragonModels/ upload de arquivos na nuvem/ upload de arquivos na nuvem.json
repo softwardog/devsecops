@@ -10,8 +10,18 @@
   },
   "detail": {
     "contributors": [],
-    "diagrams": [],
-    "diagramTop": 0,
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "Diagrama de Fluxo de Dados DFD01STRIDE",
+        "diagramType": "STRIDE",
+        "placeholder": "Descrição de novo diagrama STRIDE",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.2",
+        "cells": []
+      }
+    ],
+    "diagramTop": 2,
     "reviewer": "",
     "threatTop": 0
   }
